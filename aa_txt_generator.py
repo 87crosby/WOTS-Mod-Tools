@@ -20,7 +20,7 @@ numSec = int(input("Enter the amount of secondary gun positions: "))
 # fha = [r'{\"x\":-120.0,\"y\":120.0}' for i in range(0,16)]
 # print (*fha, sep =',')
 
-# lha = [r'{\"x\":-180.0,\"y\":0.0}' for i in range(16,38)]
+# lha = [r'{\"x\":180.0,\"y\":360.0}' for i in range(16,38)]
 # print (*lha, sep =',')
 
 # rha = [r'{\"x\":0.0,\"y\":180.0}' for i in range(38,60)]
@@ -32,5 +32,5 @@ numSec = int(input("Enter the amount of secondary gun positions: "))
 # div = [i for i in range(1,50) if 78 % i == 0]
 # print(div)
 
-aaaPos = [r'{\"x\":-70.0,\"y\":0.0,\"z\":920.0},{\"x\":70.0,\"y\":0.0,\"z\":920.0},{\"x\":-95.0,\"y\":0.0,\"z\":200.0},{\"x\":95.0,\"y\":0.0,\"z\":200.0},{\"x\":-95.0,\"y\":0.0,\"z\":-880.0},{\"x\":95.0,\"y\":0.0,\"z\":-880.0}' for i in range(13)]
-print (*aaaPos, sep =',')
+# aaaPos = [r'{\"x\":-70.0,\"y\":0.0,\"z\":920.0},{\"x\":70.0,\"y\":0.0,\"z\":920.0},{\"x\":-95.0,\"y\":0.0,\"z\":200.0},{\"x\":95.0,\"y\":0.0,\"z\":200.0},{\"x\":-95.0,\"y\":0.0,\"z\":-880.0},{\"x\":95.0,\"y\":0.0,\"z\":-880.0}' for i in range(13)]
+# print (*aaaPos, sep =',')
