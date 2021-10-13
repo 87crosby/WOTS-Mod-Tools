@@ -17,9 +17,6 @@ numSec = int(input("Enter the amount of secondary gun positions: "))
 # va = [r'{\"x\":0.0,\"y\":-85.0}' for i in range(0,78)]
 # print (*va, sep =',')
 
-# fha = [r'{\"x\":-120.0,\"y\":120.0}' for i in range(0,16)]
-# print (*fha, sep =',')
-
 # lha = [r'{\"x\":180.0,\"y\":360.0}' for i in range(16,38)]
 # print (*lha, sep =',')
 
