@@ -2,9 +2,9 @@ numAA = int(input("Enter the amount of AAA mounts on the ship: "))
 # x = [r'\"gun_single\"' for i in range(0,numAA)]
 # print (*x, sep =',')
 
-gunName = input("Enter the alphabetical prefix of the secondary gun mesh (not the barrel): ")
-barrelName = input("Enter the alphabetical of the secondary gun barrel mesh: ")
-numSec = int(input("Enter the amount of secondary gun positions: "))
+# gunName = input("Enter the alphabetical prefix of the secondary gun mesh (not the barrel): ")
+# barrelName = input("Enter the alphabetical of the secondary gun barrel mesh: ")
+# numSec = int(input("Enter the amount of secondary gun positions: "))
 # y = ['"gunName' + str(i) + '"' for i in range(0,numSec)]
 # z = ['"barrelName' + str(i) + '"' for i in range(0,numSec)]
 
