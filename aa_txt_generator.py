@@ -3,8 +3,8 @@ This script requires that the AAA mounts are placed in Blender in this order: le
     -If you want to change this, then you have the edit the order the strings are concatenated in the final print statement
 The script aslo requires that the AAA mount empties are named "AAA0, AAA1, AAA2, AAA3..." 
 Ensure the parent AAA empty has the blue arrow facing directly forwards in local orientation mode in Blender
-Both the left and right facing guns should have their blue arrows facing the same way as the parent in Blender
-The rear facing guns should have their blue arrows pointing towards the rear of the ship or the opposite direction as the rest of them
+    -Both the left and right facing guns should have their blue arrows facing the same way as the parent in Blender
+    -The rear facing guns should have their blue arrows pointing towards the rear of the ship or the opposite direction as the rest of them
 There are only 3 different AAA sectors supported by this script: 
     -the left side, which encompasses the entire 180 degree arc of the left side of the ship
     -the right side, which encompasses the entire 180 degree arc of the right side of the ship
