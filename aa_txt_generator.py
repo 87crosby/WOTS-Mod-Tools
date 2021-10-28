@@ -1,7 +1,7 @@
 '''
 This script requires that the AAA mounts are placed in Blender in this order: left facing guns first, right facing guns second, and rear facing guns last
     -If you want to change this, then you have the edit the order the strings are concatenated in the final print statement
-The script aslo requires that the AAA mount empties are named "AAA0, AAA1, AAA2, AAA3, AAA4..." 
+The script aslo requires that the AAA mount empties are named "AAA0, AAA1, AAA2, AAA3..." 
 Ensure the parent AAA empty has the blue arrow facing directly forwards in local orientation mode in Blender
     -Both the left and right facing guns should have their blue arrows facing the same way as the parent in Blender
     -The rear facing guns should have their blue arrows pointing towards the rear of the ship or the opposite direction as the rest of them
