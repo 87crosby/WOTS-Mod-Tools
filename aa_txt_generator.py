@@ -15,7 +15,7 @@ If you want to make the individual AAA Positions appear properly on the UI, then
 You can use the divisibleBy variable to figure out how many individual AAA positions you can store in the aaaPositions variable for a slightly more detailed AAA position UI
     -To do this you also need to edit the range so it prints out the correct number of AAA positions
     -Ex: If my ship has 28 AAA positions, that number can be expressed as 4*7. The first number being how many seperate entries for aaaPositions are manually written and the second is the number that needs to go in the parenthesis next to range
-    aaaPositions = [r'{\"x\":-70.0,\"y\":0.0,\"z\":200.0},{\"x\":70.0,\"y\":0.0,\"z\":200.0},{\"x\":-70.0,\"y\":0.0,\"z\":-200.0},{\"x\":70.0,\"y\":0.0,\"z\":-200.0}' for i in range(7)] is what the above example would look like in code
+    aaaPositions = [r'{\"x\":-70.0,\"y\":0.0,\"z\":200.0},{\"x\":70.0,\"y\":0.0,\"z\":200.0},{\"x\":-70.0,\"y\":0.0,\"z\":-200.0},{\"x\":70.0,\"y\":0.0,\"z\":-200.0}'] for i in range(7)] is what the above example would look like in code
 Final note: The script produces a string that starts after the comma separating the mounted guns with the AAA section; this is where you should paste the output, but make sure you keep the {"materialName":[]} that is usually the start of the last line of the model.txt
 '''
 
